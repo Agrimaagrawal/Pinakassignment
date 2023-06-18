@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#FFD700;
+}
+h1{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vh;
+    margin:30px;
+    margin-top:50px;
+}
+
+.smile{
+    width:150px;
+    height:150px;
+    background-color:rgb(139,69,19,0.5);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.eye{
+    width:10px;
+    height:10px;
+    background-color:rgb(139,69,19);
+    margin:20px;
+    margin-left:0px;
+}
+.mouth{
+    position:absolute;
+    width:70px;
+    height:90px;
+    border-radius:50%;
+    border:6px solid transparent;
+    border-right:10px solid rgb(139,69,19);
+     
+}
+.land1{
+    position:absolute;
+    bottom:0px;
+    background-color: palevioletred;
+    width:50%;
+    height:200px;
+
+}
+.land1:before{
+
+    content:"";
+    position: absolute;
+        top: 0;
+        right: 0;
+        border-top: 80px solid #FFD700;
+        border-left: 200px solid palevioletred;
+        width: 0;
+
+}
+.land2{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    background-color: palevioletred;
+    width:50%;
+    height:200px;
+}
+.land2:before{
+    content:"";
+    position: absolute;
+        top: 0;
+        left: 0;
+        border-top: 80px solid #FFD700;
+        border-right: 200px solid palevioletred;
+        width: 0;
+}
+
